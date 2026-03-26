@@ -1,0 +1,17 @@
+## How to Run the Network Sniffer
+
+1. Open Terminal in Kali Linux.
+2. Make sure Python3 is installed:
+   ```bash
+   python3 --version
+
+Install Scapy library (if not installed):
+
+sudo pip3 install scapy
+Save the sniffer code as sniffer.py.
+
+Run the sniffer with root privileges:
+
+sudo python3 sniffer.py
+Open a browser or perform network activity to see live packets.
+Press Ctrl+C to stop the sniffer.
